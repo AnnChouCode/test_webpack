@@ -13,7 +13,7 @@ export default defineConfig({
     vue(),
     visualizer()
   ],
-  base:'/test-webpack/',
+  base:'/test_webpack/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
